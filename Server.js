@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.static('public'));
 
-// MQTT Configuration
+// this is mqtt configuration
 const mqttClient = mqtt.connect('ws://157.173.101.159:9001');
 
 mqttClient.on('connect', () => {
@@ -37,7 +37,7 @@ mqttClient.on('message', (topic, message) => {
     }
 });
 
-// API to get averaged data for real-time graph
+// api to get averaged data for real-time graph
 app.get('/api/data', (req, res) => {
     getAveragedData((data) => {
         res.json(data);

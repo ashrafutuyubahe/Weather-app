@@ -4,7 +4,7 @@
  # Setup
  ## Clone this repository.
 -> git clone https://github.com/ashrafutuyubahe/Weather-app/
- cd Weather-app
+-> cd Weather-app
 
 ## Install dependencies:
 
