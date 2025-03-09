@@ -46,7 +46,7 @@ const weatherChart = new Chart(ctx, {
 
 // Fetch averaged data every 5 seconds
 const fetchData = async () => {
-    const response = await fetch('/api/data');
+    const response = await fetch('http://localhost:3001/api/data');
     const data = await response.json();
 
     weatherChart.data.labels = data.map(d => d.time);
