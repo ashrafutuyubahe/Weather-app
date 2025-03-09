@@ -5,7 +5,7 @@ const db = new sqlite3.Database('./weather.db', (err) => {
     else console.log('Connected to SQLite database');
 });
 
-// Create table for storing weather data
+
 db.serialize(() => {
     db.run(`
         CREATE TABLE IF NOT EXISTS weather_data (
