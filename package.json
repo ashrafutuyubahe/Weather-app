@@ -16,7 +16,7 @@
     "express": "^4.21.2",
     "mqtt": "^5.10.4",
     "nodemailer": "^6.10.0",
-    "nodemon": "^3.1.9",
+    "nodemon": "^3.1.10",
     "sqlite3": "^5.1.7"
   }
 }
