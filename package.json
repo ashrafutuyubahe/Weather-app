@@ -15,7 +15,7 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "mqtt": "^5.10.4",
-    "nodemailer": "^6.10.0",
+    "nodemailer": "^6.10.1",
     "nodemon": "^3.1.9",
     "sqlite3": "^5.1.7"
   }
